@@ -1,0 +1,45 @@
+/* Estilo das páginas com NavBar (mesma paleta do style.css) */
+body.painel{
+    margin: 0;
+    padding-top: 0;
+    background-color: #FDE7EE;
+    color: #4A1026;
+    font-family: arial;
+    font-size: 18px;
+}
+.navbar-vinho{ background-color: #6D1A3A; }
+.navbar-vinho .navbar-brand,
+.navbar-vinho .nav-link,
+.navbar-vinho .navbar-text{ color: #fff; }
+.navbar-vinho .nav-link:hover{ color: #FADDE7; }
+.navbar-vinho .dropdown-menu{ background-color: #FFF5F8; border: 1px solid #6D1A3A; }
+.navbar-vinho .dropdown-item{ color: #4A1026; }
+.navbar-vinho .dropdown-item:hover{ background-color: #FADDE7; }
+
+.caixa{
+    background-color: #FADDE7;
+    border: 2px solid #6D1A3A;
+    border-radius: 6px;
+    padding: 25px;
+    margin: 30px auto;
+}
+.caixa h2{ color: #6D1A3A; padding: 0 0 15px; }
+.btn-vinho{ background-color: #6D1A3A; color: #fff; border: none; }
+.btn-vinho:hover{ background-color: #8A2540; color: #fff; }
+.form-control{ border: 1px solid #6D1A3A; background-color: #FFF5F8; }
+
+/* cards dos produtos */
+.card-produto{
+    background-color: #FFF5F8;
+    border: 2px solid #6D1A3A;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    height: 100%;
+}
+.card-produto img{ width: 100%; height: 200px; object-fit: cover; border-radius: 6px; }
+.card-produto h5{ color: #6D1A3A; margin-top: 10px; }
+a.link-card{ text-decoration: none; color: inherit; }
+
+/* página de exibir produto */
+.galeria img{ width: 100%; border-radius: 6px; }

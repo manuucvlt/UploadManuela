@@ -1,0 +1,31 @@
+body{
+	background-color: #FDE7EE;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #4A1026;
+}
+
+section{
+    width: 70px;
+    margin: 0 auto;
+     font-family:Arial, Helvetica, sans-serif ;
+}
+
+div{
+    width: 15%;
+    float: left;
+    padding: 10px;
+    background-color: #FADDE7;
+    color: #4A1026;
+    border: 2px solid #6D1A3A;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #ccc;
+}
+
+img{
+    width: 100%;
+}
+
+h1{
+    color: #6D1A3A;
+}
